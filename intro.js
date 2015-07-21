@@ -635,8 +635,8 @@
 
       //set new position to helper layer
       helperLayer.setAttribute('style', 'width: ' + (elementPosition.width  + widthHeightPadding)  + 'px; ' +
-                                        'height:' + (elementPosition.height + widthHeightPadding)  + 'px; ' +
-                                        'top:'    + (elementPosition.top    - 5)   + 'px;' +
+                                        'height:' + (elementPosition.height)  + 'px; ' +
+                                        'top:'    + (elementPosition.top)   + 'px;' +
                                         'left: '  + (elementPosition.left   - 5)   + 'px;');
 
     }
